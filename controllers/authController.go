@@ -52,7 +52,7 @@ func SignUp(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	responses.Response(w, 201, "User Registered Successfully", user)
+	responses.Response(w, 201, "User Registered Successfully", nil)
 
 }
 
